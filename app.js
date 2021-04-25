@@ -29,8 +29,8 @@ $(() => {
             $('#pokeType').html(data.types[0].type.name)
             $('#pokeNum').html(data.id)
             console.log(data)
+            $('.headerContainer').addClass(data.types[0].type.name)
 
-            
 
         }
         getPokeData()
