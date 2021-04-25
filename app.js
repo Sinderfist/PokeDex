@@ -8,12 +8,17 @@
 //change the data to json data
 //prevent default info from populating
 
+
+//Add functionality to change the screen or anythings color based off of the type of pokemon
+
 $(() => {
+    
+
     $('form').on('submit', (event) => {
         event.preventDefault()
         const userInput = $('input[type="text"]').val()
-        
-         console.log(userInput)
+
+        console.log(userInput)
 
         async function getPokeData(input) {
             //async await to grab data
@@ -23,10 +28,13 @@ $(() => {
             $('#pokeName').html(data.forms[0].name)
             $('#pokeType').html(data.types[0].type.name)
             $('#pokeNum').html(data.id)
+            console.log(data)
 
-             console.log(data)
+            
+
         }
         getPokeData()
-    })
+    });
+
 })
 

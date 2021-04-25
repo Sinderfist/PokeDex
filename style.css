@@ -5,4 +5,74 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:white;
 }
+
+.normal{
+    background-color: white;
+}
+
+.fighting{
+    background-color:orange;
+}
+
+.flying{
+    background-color: skyblue;
+}
+
+.poison{
+    background-color: purple;
+}
+
+.ground{
+    background-color: brown;
+}
+
+.rock{
+    background-color: peru;
+}
+
+.bug{
+    background-color: greenyellow;
+}
+
+.ghost{
+    background-color: mediumpurple;
+}
+
+.steel{
+    background-color: slategray;
+}
+
+.fire{
+    background-color: red;
+}
+
+.water{
+    background-color:aquamarine;
+}
+
+.grass{
+    background-color: green;
+}
+
+.electric{
+    background-color:yellow;
+}
+
+.psychic{
+    background-color: pink ;
+}
+
+.ice{
+    background-color:lightcyan;
+}
+
+.dragon{
+    background-color:darkorange;
+}
+
+.dark{
+    background-color: black;
+}
+
